@@ -199,7 +199,7 @@ input[type='checkbox'] {
 }
 
 .wrap-collabsible1 {
-    position: fixed;
+    position: absolute;
     top: 60%;
     left: 30%;
     margin: 1.2rem 0;
@@ -207,7 +207,7 @@ input[type='checkbox'] {
 }
 
 .wrap-collabsible2 {
-    position: fixed;
+    position: absolute;
     top: 60%;
     left: 46%;
     margin: 1.2rem 0;
@@ -215,7 +215,7 @@ input[type='checkbox'] {
 }
 
 .wrap-collabsible3 {
-    position: fixed;
+    position: absolute;
     top: 60%;
     left: 62%;
     margin: 1.2rem 0;
@@ -223,7 +223,7 @@ input[type='checkbox'] {
 }
 
 .wrap-collabsible4 {
-    position: fixed;
+    position: absolute;
     top: 60%;
     left: 78%;
     margin: 1.2rem 0;
