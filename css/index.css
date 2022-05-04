@@ -199,7 +199,7 @@ input[type='checkbox'] {
 }
 
 .wrap-collabsible1 {
-    position: relative;
+    position: static;
     top: 80%;
     left: 30%;
     margin: 1.2rem 0;
