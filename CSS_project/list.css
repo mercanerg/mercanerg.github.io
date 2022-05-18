@@ -1,0 +1,23 @@
+ul.first {
+    list-style-type: circle;
+}
+
+ul.second {
+    list-style-type: square;
+}
+
+ul.third {
+    list-style-image: url('images/profile.jpg');
+}
+
+ol.first {
+    background: #ffe5e5;
+    color: darkred;
+    /* padding: 5px; */
+    margin-left: 20px;
+    width: 100px;
+}
+
+.orlist {
+    width: 10%;
+}

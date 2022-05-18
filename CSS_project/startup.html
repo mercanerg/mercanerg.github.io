@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="startup.css">
+</head>
+
+<body>
+    <div class="outer">
+        <h1 class="netflix">
+            <-Code-><span id="flix">{Runner}</span>
+        </h1>
+        <form action="result.html" method="get">
+            <div id="content">
+                <div>
+                    <label for="name">Enter your name</label><br>
+                    <input type="text" size="60" name="name" id="name" placeholder="Enter your name">
+                </div>
+                <div>
+                    <label for="age">Enter your age</label><br>
+                    <input type="text" size="60" name="age" id="age" placeholder="Enter your age">
+                </div>
+                <div>
+                    <label for="email">Enter your email</label><br>
+                    <input type="email" size="60" name="email" id="email" placeholder="Enter your email">
+                </div>
+                <div id="cont">Content:</div>
+                <select aria-labelledby="content">
+                        <option value="movie">Movies</option>
+                        <option value="serie">Series</option>
+                </select>
+                <div id="browser">Select your browser: <br>
+                    <input type="radio" id="edge" name="browser" value="EDGE">
+                    <label for="edge">EDGE</label><br>
+                    <input type="radio" id="chrome" name="browser" value="CHROME">
+                    <label for="chrome">CHROME</label><br>
+                    <input type="radio" id="opera" name="browser" value="OPERA">
+                    <label for="opera">OPERA</label>
+                    <br><br>
+                </div>
+
+                <div id="Type">check what type films you would like: <br>
+                    <input type="checkbox" id="horor" name="browser" value="horror">
+                    <label for="horor">Horror</label><br>
+                    <input type="checkbox" id="action" name="browser" value="CHROME">
+                    <label for="action">Action</label><br>
+                    <input type="checkbox" id="scific" name="browser" value="OPERA">
+                    <label for="scific">Science Fiction</label>
+                    <br><br>
+                </div>
+                <label for="comment">Your Messages</label><br>
+                <textarea id="comment" cols="40" rows="4"></textarea>
+
+                <br /><br />
+                <details>
+                    <summary>Bundles</summary>
+                    <ul>
+                        <li> Montly ($12 per a month) </li>
+                        <li> 3 Months ($8 per a month) </li>
+                        <li> Annual ($3 per a month) </li>
+                    </ul>
+                </details>
+                <br><br>
+                <button class="button" type="reset">reset</button>
+                <button class="button" type="submit">send</button>
+        </form>
+        </div>
+</body>
+
+</html>

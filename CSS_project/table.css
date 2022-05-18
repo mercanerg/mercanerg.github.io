@@ -1,0 +1,145 @@
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+th {
+    height: 50px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+td {
+    text-align: center;
+    vertical-align: bottom;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid blue;
+    background-color: azure;
+    border-collapse: collapse;
+}
+
+a {
+    display: block;
+}
+
+span {
+    color: red;
+}
+
+p.provide {
+    text-align: justify;
+    font-size: larger;
+    font-family: Cambria;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.fixed {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    border: chocolate double;
+    width: 70%;
+    padding: 20px;
+}
+
+.slide-effect {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+}
+
+.text,
+.slideDown,
+.slideUp {
+    position: relative;
+    font-family: tahoma;
+    font-size: 35px;
+    opacity: 0;
+}
+
+.text {
+    top: 40px;
+    font-weight: bold;
+    animation: slideUp ease .4s forwards;
+}
+
+.slideDown {
+    top: -40px;
+    left: 5px;
+    animation: slideDown ease .4s forwards .6s;
+}
+
+.slideUp {
+    top: 40px;
+    left: 10px;
+    animation: slideUp ease .5s forwards 1.2s;
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-40px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(40px);
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slide-effect,
+    .text,
+    .slideDown,
+    .slideUp {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .slide-effect,
+    .text,
+    .slideDown,
+    .slideUp {
+        font-size: 15px;
+    }
+}
+
+.fparagraph {
+    border-radius: 10px;
+    width: 60%;
+    background-color: blanchedalmond;
+    padding: 10px;
+}
+
+.resume {
+    text-align: justify;
+}

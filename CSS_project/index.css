@@ -1,0 +1,72 @@
+body {
+    background-color: beige;
+}
+
+h1 {
+    text-decoration: overline underline wavy blue;
+    font-style: italic;
+    /* font-style: oblique; */
+    color: darkblue;
+    text-shadow: 2px 4px yellow;
+    text-align: center;
+}
+
+h2 {
+    text-decoration: dotted underline purple;
+    font-style: italic;
+    color: darkolivegreen;
+    text-align: center;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+p {
+    font-size: 25px;
+    color: cornsilk;
+    /* padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-left: 50px; */
+    /* padding top right bottom left padding. */
+    padding: 30px 50px 20px 50px;
+    border: 2px solid chocolate;
+    background-color: darkslateblue;
+    letter-spacing: 1px;
+    line-height: 0.8;
+    /* text-decoration: overline; */
+}
+
+span {
+    font-weight: bold;
+    border: 2px dashed deeppink;
+    background-color: cornflowerblue;
+}
+
+div {
+    /* text-indent: 50px; */
+    /* place div dolder center of the screen */
+    margin: auto;
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 2px chocolate solid wavy;
+    border-radius: 10px;
+    background-color: aquamarine;
+    text-align: left;
+    text-transform: uppercase;
+    /* text-decoration: line-through; */
+}
