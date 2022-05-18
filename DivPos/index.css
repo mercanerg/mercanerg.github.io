@@ -1,0 +1,121 @@
+            header {
+                background-repeat: no-repeat;
+                background-size: cover;
+                padding-top: 3%;
+                font-size: 50px;
+                text-align: center;
+                background-image: url('header1.jpg');
+                height: 100px;
+                font-family: 'Marck Script', cursive;
+                border-radius: 20px;
+            }
+            
+            footer {
+                background-color: gray;
+                height: 100px;
+            }
+            
+            .x {
+                font-family: 'Marck Script', cursive;
+                font-size: 75px;
+                color: red;
+                margin-left: 0%;
+            }
+            
+            .leftside {
+                position: absolute;
+                background-color: orange;
+                height: 755px;
+                width: 20%;
+            }
+            
+            .rightside {
+                position: relative;
+                left: 20%;
+                background-color: azure;
+                height: 755px;
+                width: 80%;
+            }
+            
+            .navbar {
+                overflow: hidden;
+                background-color: #333;
+            }
+            
+            .navbar a {
+                float: left;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            
+            .dropdown {
+                float: left;
+                overflow: hidden;
+            }
+            
+            .dropdown .dropbtn {
+                font-size: 16px;
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+            
+            .navbar a:hover,
+            .dropdown:hover .dropbtn {
+                background-color: red;
+            }
+            
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                z-index: 1;
+            }
+            
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            
+            .dropbtn ::after {
+                content: '\1f447';
+            }
+            
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+            
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            
+            .copyright {
+                text-align: center;
+                font-size: larger;
+                color: white;
+            }
+            
+            .codex {
+                text-align: center;
+                position: relative;
+                transform: rotateZ(20deg);
+                font-size: 100px;
+                left: 40%;
+                top: 15%;
+                width: 300px;
+                background-color: chartreuse;
+                border-radius: 20px;
+            }
