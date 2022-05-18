@@ -1,0 +1,23 @@
+/* @import 'theme.css'; */
+
+body {
+    background-color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.container div {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    width: 5rem;
+    height: 5rem;
+    background-color: violet;
+    margin: 1rem;
+}

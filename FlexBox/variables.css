@@ -1,0 +1,25 @@
+@import 'theme.css';
+body {
+    text-align: center;
+    font-family: var (--ff-monteserrat);
+}
+
+h1 {
+    font-family: var(--ff-lato);
+}
+
+div {
+    text-align: justify;
+    font-size: 23px;
+    margin: auto;
+    background: var(--turuncu);
+    padding: 10px;
+    box-shadow: 5px 5px 10px gray;
+    width: 60%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+p {
+    color: var();
+}
