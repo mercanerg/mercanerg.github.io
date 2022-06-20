@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Number </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container bg-secondary flex align-content-between justify-content-evenly">
+        <h1>Guess Number (1-100) </h1>
+        <form class="row g-3 justify-content-center ">
+            <div class="col-auto">
+                <label for="number" class="visually-hidden">Enter a Number</label>
+                <input type="text" class="form-control" id="number" placeholder="Enter number (1-100)">
+            </div>
+            <div class="col-auto">
+                <button type="button" class="btn btn-primary mb-3" onclick="guessNumber()">Check</button>
+            </div>
+            <div class="picture flex-fill">
+                <img src="./img/hat.png" alt="hat">
+            </div>
+            <div class="directive">
+                <h1 id="directive"></h1>
+            </div>
+            <div class="attempt">
+                <h3 id="attempt"></h3>
+            </div>
+        </form>
+
+    </div>
+
+    <script src="java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+
+</html>
